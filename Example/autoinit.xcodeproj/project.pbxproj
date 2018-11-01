@@ -7,73 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		360F6E7A82F7ECA7F2A56C00 /* Pods_autoinit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C76714D6519AA66FE2E7353 /* Pods_autoinit_Tests.framework */; };
-		B8CC1DA11EEB37CA006DE9B4 /* AutoInitCyclical1.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CC1D861EEB37CA006DE9B4 /* AutoInitCyclical1.m */; };
-		B8CC1DA21EEB37CA006DE9B4 /* AutoInitCyclical2.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CC1D881EEB37CA006DE9B4 /* AutoInitCyclical2.m */; };
-		B8CC1DA31EEB37CA006DE9B4 /* AutoInitCyclical3.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CC1D8A1EEB37CA006DE9B4 /* AutoInitCyclical3.m */; };
-		B8CC1DA41EEB37CA006DE9B4 /* AutoInitDependency1.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CC1D8C1EEB37CA006DE9B4 /* AutoInitDependency1.m */; };
-		B8CC1DA51EEB37CA006DE9B4 /* AutoInitDependency2.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CC1D8E1EEB37CA006DE9B4 /* AutoInitDependency2.m */; };
-		B8CC1DA61EEB37CA006DE9B4 /* AutoInitDependency3.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CC1D901EEB37CA006DE9B4 /* AutoInitDependency3.m */; };
-		B8CC1DA71EEB37CA006DE9B4 /* AutoInitMultipleDependency.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CC1D921EEB37CA006DE9B4 /* AutoInitMultipleDependency.m */; };
-		B8CC1DA81EEB37CA006DE9B4 /* AutoInitNoDestructor.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CC1D941EEB37CA006DE9B4 /* AutoInitNoDestructor.m */; };
-		B8CC1DA91EEB37CA006DE9B4 /* AutoInitSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CC1D961EEB37CA006DE9B4 /* AutoInitSimple.m */; };
-		B8CC1DAA1EEB37CA006DE9B4 /* AutoInitSwiftDependency.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CC1D981EEB37CA006DE9B4 /* AutoInitSwiftDependency.m */; };
-		B8CC1DAB1EEB37CA006DE9B4 /* caboAutoInitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CC1D991EEB37CA006DE9B4 /* caboAutoInitTests.m */; };
-		B8CC1DAC1EEB37CA006DE9B4 /* caboAutoInitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CC1D9A1EEB37CA006DE9B4 /* caboAutoInitTests.swift */; };
-		B8CC1DAD1EEB37CA006DE9B4 /* SwiftAutoInitDependency1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CC1D9B1EEB37CA006DE9B4 /* SwiftAutoInitDependency1.swift */; };
-		B8CC1DAE1EEB37CA006DE9B4 /* SwiftAutoInitDependency2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CC1D9C1EEB37CA006DE9B4 /* SwiftAutoInitDependency2.swift */; };
-		B8CC1DAF1EEB37CA006DE9B4 /* SwiftAutoInitDependency3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CC1D9D1EEB37CA006DE9B4 /* SwiftAutoInitDependency3.swift */; };
-		B8CC1DB01EEB37CA006DE9B4 /* SwiftAutoInitMultipleDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CC1D9E1EEB37CA006DE9B4 /* SwiftAutoInitMultipleDependency.swift */; };
-		B8CC1DB11EEB37CA006DE9B4 /* SwiftAutoInitObjCDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CC1D9F1EEB37CA006DE9B4 /* SwiftAutoInitObjCDependency.swift */; };
-		B8CC1DB21EEB37CA006DE9B4 /* SwiftAutoInitSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CC1DA01EEB37CA006DE9B4 /* SwiftAutoInitSimple.swift */; };
+		46A37FBCF3FD590DD6EC6A6B /* Pods_autoinit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860ACBEBC910F0610A687784 /* Pods_autoinit_Example.framework */; };
+		48C9EC8CC4643E497366ABC0 /* Pods_autoinit_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F694AEDE3279FC7716F9A63 /* Pods_autoinit_ExampleTests.framework */; };
+		B83325FE218B9DCF00DB3F3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83325FD218B9DCF00DB3F3F /* AppDelegate.swift */; };
+		B8332600218B9DCF00DB3F3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83325FF218B9DCF00DB3F3F /* ViewController.swift */; };
+		B8332603218B9DCF00DB3F3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8332601218B9DCF00DB3F3F /* Main.storyboard */; };
+		B8332605218B9DD100DB3F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8332604218B9DD100DB3F3F /* Assets.xcassets */; };
+		B8332608218B9DD100DB3F3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8332606218B9DD100DB3F3F /* LaunchScreen.storyboard */; };
+		B8332613218B9DD100DB3F3F /* autoinit_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8332612218B9DD100DB3F3F /* autoinit_ExampleTests.swift */; };
+		B8332639218B9ECB00DB3F3F /* SwiftAutoInitDependency3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B833261C218B9EC500DB3F3F /* SwiftAutoInitDependency3.swift */; };
+		B833263A218B9ECB00DB3F3F /* AutoInitNoDestructor.m in Sources */ = {isa = PBXBuildFile; fileRef = B833261F218B9EC700DB3F3F /* AutoInitNoDestructor.m */; };
+		B833263B218B9ECB00DB3F3F /* SwiftAutoInitMultipleDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8332620218B9EC700DB3F3F /* SwiftAutoInitMultipleDependency.swift */; };
+		B833263C218B9ECB00DB3F3F /* AutoInitCyclical3.m in Sources */ = {isa = PBXBuildFile; fileRef = B8332621218B9EC700DB3F3F /* AutoInitCyclical3.m */; };
+		B833263D218B9ECB00DB3F3F /* AutoInitSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = B8332623218B9EC800DB3F3F /* AutoInitSimple.m */; };
+		B833263E218B9ECB00DB3F3F /* AutoInitDependency1.m in Sources */ = {isa = PBXBuildFile; fileRef = B8332624218B9EC900DB3F3F /* AutoInitDependency1.m */; };
+		B833263F218B9ECB00DB3F3F /* AutoInitCyclical1.m in Sources */ = {isa = PBXBuildFile; fileRef = B8332625218B9EC900DB3F3F /* AutoInitCyclical1.m */; };
+		B8332640218B9ECB00DB3F3F /* caboAutoInitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8332626218B9ECA00DB3F3F /* caboAutoInitTests.m */; };
+		B8332641218B9ECB00DB3F3F /* caboAutoInitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8332627218B9ECA00DB3F3F /* caboAutoInitTests.swift */; };
+		B8332642218B9ECB00DB3F3F /* AutoInitDependency2.m in Sources */ = {isa = PBXBuildFile; fileRef = B8332629218B9ECA00DB3F3F /* AutoInitDependency2.m */; };
+		B8332643218B9ECB00DB3F3F /* SwiftAutoInitDependency1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B833262D218B9ECA00DB3F3F /* SwiftAutoInitDependency1.swift */; };
+		B8332644218B9ECB00DB3F3F /* AutoInitCyclical2.m in Sources */ = {isa = PBXBuildFile; fileRef = B833262E218B9ECA00DB3F3F /* AutoInitCyclical2.m */; };
+		B8332645218B9ECB00DB3F3F /* AutoInitMultipleDependency.m in Sources */ = {isa = PBXBuildFile; fileRef = B833262F218B9ECB00DB3F3F /* AutoInitMultipleDependency.m */; };
+		B8332646218B9ECB00DB3F3F /* SwiftAutoInitSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8332630218B9ECB00DB3F3F /* SwiftAutoInitSimple.swift */; };
+		B8332647218B9ECB00DB3F3F /* AutoInitSwiftDependency.m in Sources */ = {isa = PBXBuildFile; fileRef = B8332632218B9ECB00DB3F3F /* AutoInitSwiftDependency.m */; };
+		B8332648218B9ECB00DB3F3F /* SwiftAutoInitObjCDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8332633218B9ECB00DB3F3F /* SwiftAutoInitObjCDependency.swift */; };
+		B8332649218B9ECB00DB3F3F /* AutoInitDependency3.m in Sources */ = {isa = PBXBuildFile; fileRef = B8332634218B9ECB00DB3F3F /* AutoInitDependency3.m */; };
+		B833264A218B9ECB00DB3F3F /* SwiftAutoInitDependency2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8332635218B9ECB00DB3F3F /* SwiftAutoInitDependency2.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B833260F218B9DD100DB3F3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B83325FA218B9DCF00DB3F3F;
+			remoteInfo = autoinit_Example;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		025CE6BC6858CD8A6876E6CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2C76714D6519AA66FE2E7353 /* Pods_autoinit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_autoinit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AEAAD4AB2F3FD4F18464972 /* autoinit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = autoinit.podspec; path = ../autoinit.podspec; sourceTree = "<group>"; };
-		45BCA029BE4E5FD6CBD2E81E /* Pods-autoinit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoinit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-autoinit_Tests/Pods-autoinit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* autoinit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autoinit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E7D7CEA80055CB37ABDBB2 /* Pods-autoinit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoinit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-autoinit_Example/Pods-autoinit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3AEAAD4AB2F3FD4F18464972 /* autoinit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = autoinit.podspec; path = ../autoinit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4F694AEDE3279FC7716F9A63 /* Pods_autoinit_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_autoinit_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		860ACBEBC910F0610A687784 /* Pods_autoinit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_autoinit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B405AB80911F9339B7828C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B8CC1D841EEB37CA006DE9B4 /* autoinit_Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "autoinit_Tests-Bridging-Header.h"; sourceTree = "<group>"; };
-		B8CC1D851EEB37CA006DE9B4 /* AutoInitCyclical1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoInitCyclical1.h; sourceTree = "<group>"; };
-		B8CC1D861EEB37CA006DE9B4 /* AutoInitCyclical1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoInitCyclical1.m; sourceTree = "<group>"; };
-		B8CC1D871EEB37CA006DE9B4 /* AutoInitCyclical2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoInitCyclical2.h; sourceTree = "<group>"; };
-		B8CC1D881EEB37CA006DE9B4 /* AutoInitCyclical2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoInitCyclical2.m; sourceTree = "<group>"; };
-		B8CC1D891EEB37CA006DE9B4 /* AutoInitCyclical3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoInitCyclical3.h; sourceTree = "<group>"; };
-		B8CC1D8A1EEB37CA006DE9B4 /* AutoInitCyclical3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoInitCyclical3.m; sourceTree = "<group>"; };
-		B8CC1D8B1EEB37CA006DE9B4 /* AutoInitDependency1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoInitDependency1.h; sourceTree = "<group>"; };
-		B8CC1D8C1EEB37CA006DE9B4 /* AutoInitDependency1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoInitDependency1.m; sourceTree = "<group>"; };
-		B8CC1D8D1EEB37CA006DE9B4 /* AutoInitDependency2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoInitDependency2.h; sourceTree = "<group>"; };
-		B8CC1D8E1EEB37CA006DE9B4 /* AutoInitDependency2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoInitDependency2.m; sourceTree = "<group>"; };
-		B8CC1D8F1EEB37CA006DE9B4 /* AutoInitDependency3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoInitDependency3.h; sourceTree = "<group>"; };
-		B8CC1D901EEB37CA006DE9B4 /* AutoInitDependency3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoInitDependency3.m; sourceTree = "<group>"; };
-		B8CC1D911EEB37CA006DE9B4 /* AutoInitMultipleDependency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoInitMultipleDependency.h; sourceTree = "<group>"; };
-		B8CC1D921EEB37CA006DE9B4 /* AutoInitMultipleDependency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoInitMultipleDependency.m; sourceTree = "<group>"; };
-		B8CC1D931EEB37CA006DE9B4 /* AutoInitNoDestructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoInitNoDestructor.h; sourceTree = "<group>"; };
-		B8CC1D941EEB37CA006DE9B4 /* AutoInitNoDestructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoInitNoDestructor.m; sourceTree = "<group>"; };
-		B8CC1D951EEB37CA006DE9B4 /* AutoInitSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoInitSimple.h; sourceTree = "<group>"; };
-		B8CC1D961EEB37CA006DE9B4 /* AutoInitSimple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoInitSimple.m; sourceTree = "<group>"; };
-		B8CC1D971EEB37CA006DE9B4 /* AutoInitSwiftDependency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoInitSwiftDependency.h; sourceTree = "<group>"; };
-		B8CC1D981EEB37CA006DE9B4 /* AutoInitSwiftDependency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoInitSwiftDependency.m; sourceTree = "<group>"; };
-		B8CC1D991EEB37CA006DE9B4 /* caboAutoInitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = caboAutoInitTests.m; sourceTree = "<group>"; };
-		B8CC1D9A1EEB37CA006DE9B4 /* caboAutoInitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = caboAutoInitTests.swift; sourceTree = "<group>"; };
-		B8CC1D9B1EEB37CA006DE9B4 /* SwiftAutoInitDependency1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAutoInitDependency1.swift; sourceTree = "<group>"; };
-		B8CC1D9C1EEB37CA006DE9B4 /* SwiftAutoInitDependency2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAutoInitDependency2.swift; sourceTree = "<group>"; };
-		B8CC1D9D1EEB37CA006DE9B4 /* SwiftAutoInitDependency3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAutoInitDependency3.swift; sourceTree = "<group>"; };
-		B8CC1D9E1EEB37CA006DE9B4 /* SwiftAutoInitMultipleDependency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAutoInitMultipleDependency.swift; sourceTree = "<group>"; };
-		B8CC1D9F1EEB37CA006DE9B4 /* SwiftAutoInitObjCDependency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAutoInitObjCDependency.swift; sourceTree = "<group>"; };
-		B8CC1DA01EEB37CA006DE9B4 /* SwiftAutoInitSimple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAutoInitSimple.swift; sourceTree = "<group>"; };
-		F6CA2EE9643A316EEAFD4754 /* Pods-autoinit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoinit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-autoinit_Tests/Pods-autoinit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3C7CD66A37DB318ADA21A94 /* Pods-autoinit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoinit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-autoinit_Example/Pods-autoinit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B83325F5218B9D4F00DB3F3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B83325FB218B9DCF00DB3F3F /* autoinit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autoinit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83325FD218B9DCF00DB3F3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B83325FF218B9DCF00DB3F3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8332602218B9DCF00DB3F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8332604218B9DD100DB3F3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8332607218B9DD100DB3F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8332609218B9DD100DB3F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B833260E218B9DD100DB3F3F /* autoinit_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autoinit_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8332612218B9DD100DB3F3F /* autoinit_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autoinit_ExampleTests.swift; sourceTree = "<group>"; };
+		B8332614218B9DD100DB3F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B833261B218B9EC500DB3F3F /* autoinit_ExampleTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "autoinit_ExampleTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		B833261C218B9EC500DB3F3F /* SwiftAutoInitDependency3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAutoInitDependency3.swift; sourceTree = "<group>"; };
+		B833261D218B9EC600DB3F3F /* AutoInitCyclical3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoInitCyclical3.h; sourceTree = "<group>"; };
+		B833261F218B9EC700DB3F3F /* AutoInitNoDestructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoInitNoDestructor.m; sourceTree = "<group>"; };
+		B8332620218B9EC700DB3F3F /* SwiftAutoInitMultipleDependency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAutoInitMultipleDependency.swift; sourceTree = "<group>"; };
+		B8332621218B9EC700DB3F3F /* AutoInitCyclical3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoInitCyclical3.m; sourceTree = "<group>"; };
+		B8332622218B9EC800DB3F3F /* AutoInitDependency1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoInitDependency1.h; sourceTree = "<group>"; };
+		B8332623218B9EC800DB3F3F /* AutoInitSimple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoInitSimple.m; sourceTree = "<group>"; };
+		B8332624218B9EC900DB3F3F /* AutoInitDependency1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoInitDependency1.m; sourceTree = "<group>"; };
+		B8332625218B9EC900DB3F3F /* AutoInitCyclical1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoInitCyclical1.m; sourceTree = "<group>"; };
+		B8332626218B9ECA00DB3F3F /* caboAutoInitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = caboAutoInitTests.m; sourceTree = "<group>"; };
+		B8332627218B9ECA00DB3F3F /* caboAutoInitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = caboAutoInitTests.swift; sourceTree = "<group>"; };
+		B8332628218B9ECA00DB3F3F /* AutoInitDependency2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoInitDependency2.h; sourceTree = "<group>"; };
+		B8332629218B9ECA00DB3F3F /* AutoInitDependency2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoInitDependency2.m; sourceTree = "<group>"; };
+		B833262A218B9ECA00DB3F3F /* AutoInitNoDestructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoInitNoDestructor.h; sourceTree = "<group>"; };
+		B833262B218B9ECA00DB3F3F /* AutoInitCyclical2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoInitCyclical2.h; sourceTree = "<group>"; };
+		B833262C218B9ECA00DB3F3F /* AutoInitSwiftDependency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoInitSwiftDependency.h; sourceTree = "<group>"; };
+		B833262D218B9ECA00DB3F3F /* SwiftAutoInitDependency1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAutoInitDependency1.swift; sourceTree = "<group>"; };
+		B833262E218B9ECA00DB3F3F /* AutoInitCyclical2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoInitCyclical2.m; sourceTree = "<group>"; };
+		B833262F218B9ECB00DB3F3F /* AutoInitMultipleDependency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoInitMultipleDependency.m; sourceTree = "<group>"; };
+		B8332630218B9ECB00DB3F3F /* SwiftAutoInitSimple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAutoInitSimple.swift; sourceTree = "<group>"; };
+		B8332631218B9ECB00DB3F3F /* AutoInitMultipleDependency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoInitMultipleDependency.h; sourceTree = "<group>"; };
+		B8332632218B9ECB00DB3F3F /* AutoInitSwiftDependency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoInitSwiftDependency.m; sourceTree = "<group>"; };
+		B8332633218B9ECB00DB3F3F /* SwiftAutoInitObjCDependency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAutoInitObjCDependency.swift; sourceTree = "<group>"; };
+		B8332634218B9ECB00DB3F3F /* AutoInitDependency3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoInitDependency3.m; sourceTree = "<group>"; };
+		B8332635218B9ECB00DB3F3F /* SwiftAutoInitDependency2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAutoInitDependency2.swift; sourceTree = "<group>"; };
+		B8332636218B9ECB00DB3F3F /* AutoInitCyclical1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoInitCyclical1.h; sourceTree = "<group>"; };
+		B8332637218B9ECB00DB3F3F /* AutoInitSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoInitSimple.h; sourceTree = "<group>"; };
+		B8332638218B9ECB00DB3F3F /* AutoInitDependency3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoInitDependency3.h; sourceTree = "<group>"; };
+		DC421ED31B97AEA0829A511B /* Pods-autoinit_ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoinit_ExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-autoinit_ExampleTests/Pods-autoinit_ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		F1C3D904509B067B617FBE01 /* Pods-autoinit_ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoinit_ExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-autoinit_ExampleTests/Pods-autoinit_ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
+		B83325F8218B9DCF00DB3F3F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				360F6E7A82F7ECA7F2A56C00 /* Pods_autoinit_Tests.framework in Frameworks */,
+				46A37FBCF3FD590DD6EC6A6B /* Pods_autoinit_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B833260B218B9DD100DB3F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C9EC8CC4643E497366ABC0 /* Pods_autoinit_ExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +121,10 @@
 		33577F0D782AF6BF652B2FBE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B83325F5218B9D4F00DB3F3F /* Foundation.framework */,
 				2C76714D6519AA66FE2E7353 /* Pods_autoinit_Tests.framework */,
+				860ACBEBC910F0610A687784 /* Pods_autoinit_Example.framework */,
+				4F694AEDE3279FC7716F9A63 /* Pods_autoinit_ExampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -92,7 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACE81AFB9204008FA782 /* Tests */,
+				B83325FC218B9DCF00DB3F3F /* autoinit_Example */,
+				B8332611218B9DD100DB3F3F /* autoinit_ExampleTests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				EB3036CDB488B8A9461B336D /* Pods */,
 				33577F0D782AF6BF652B2FBE /* Frameworks */,
@@ -102,54 +144,10 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACE51AFB9204008FA782 /* autoinit_Tests.xctest */,
+				B83325FB218B9DCF00DB3F3F /* autoinit_Example.app */,
+				B833260E218B9DD100DB3F3F /* autoinit_ExampleTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				B8CC1D851EEB37CA006DE9B4 /* AutoInitCyclical1.h */,
-				B8CC1D861EEB37CA006DE9B4 /* AutoInitCyclical1.m */,
-				B8CC1D871EEB37CA006DE9B4 /* AutoInitCyclical2.h */,
-				B8CC1D881EEB37CA006DE9B4 /* AutoInitCyclical2.m */,
-				B8CC1D891EEB37CA006DE9B4 /* AutoInitCyclical3.h */,
-				B8CC1D8A1EEB37CA006DE9B4 /* AutoInitCyclical3.m */,
-				B8CC1D8B1EEB37CA006DE9B4 /* AutoInitDependency1.h */,
-				B8CC1D8C1EEB37CA006DE9B4 /* AutoInitDependency1.m */,
-				B8CC1D8D1EEB37CA006DE9B4 /* AutoInitDependency2.h */,
-				B8CC1D8E1EEB37CA006DE9B4 /* AutoInitDependency2.m */,
-				B8CC1D8F1EEB37CA006DE9B4 /* AutoInitDependency3.h */,
-				B8CC1D901EEB37CA006DE9B4 /* AutoInitDependency3.m */,
-				B8CC1D911EEB37CA006DE9B4 /* AutoInitMultipleDependency.h */,
-				B8CC1D921EEB37CA006DE9B4 /* AutoInitMultipleDependency.m */,
-				B8CC1D931EEB37CA006DE9B4 /* AutoInitNoDestructor.h */,
-				B8CC1D941EEB37CA006DE9B4 /* AutoInitNoDestructor.m */,
-				B8CC1D951EEB37CA006DE9B4 /* AutoInitSimple.h */,
-				B8CC1D961EEB37CA006DE9B4 /* AutoInitSimple.m */,
-				B8CC1D971EEB37CA006DE9B4 /* AutoInitSwiftDependency.h */,
-				B8CC1D981EEB37CA006DE9B4 /* AutoInitSwiftDependency.m */,
-				B8CC1D991EEB37CA006DE9B4 /* caboAutoInitTests.m */,
-				B8CC1D9A1EEB37CA006DE9B4 /* caboAutoInitTests.swift */,
-				B8CC1D9B1EEB37CA006DE9B4 /* SwiftAutoInitDependency1.swift */,
-				B8CC1D9C1EEB37CA006DE9B4 /* SwiftAutoInitDependency2.swift */,
-				B8CC1D9D1EEB37CA006DE9B4 /* SwiftAutoInitDependency3.swift */,
-				B8CC1D9E1EEB37CA006DE9B4 /* SwiftAutoInitMultipleDependency.swift */,
-				B8CC1D9F1EEB37CA006DE9B4 /* SwiftAutoInitObjCDependency.swift */,
-				B8CC1DA01EEB37CA006DE9B4 /* SwiftAutoInitSimple.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-				B8CC1D841EEB37CA006DE9B4 /* autoinit_Tests-Bridging-Header.h */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
@@ -162,11 +160,64 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		B83325FC218B9DCF00DB3F3F /* autoinit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B83325FD218B9DCF00DB3F3F /* AppDelegate.swift */,
+				B83325FF218B9DCF00DB3F3F /* ViewController.swift */,
+				B8332601218B9DCF00DB3F3F /* Main.storyboard */,
+				B8332604218B9DD100DB3F3F /* Assets.xcassets */,
+				B8332606218B9DD100DB3F3F /* LaunchScreen.storyboard */,
+				B8332609218B9DD100DB3F3F /* Info.plist */,
+			);
+			path = autoinit_Example;
+			sourceTree = "<group>";
+		};
+		B8332611218B9DD100DB3F3F /* autoinit_ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8332636218B9ECB00DB3F3F /* AutoInitCyclical1.h */,
+				B8332625218B9EC900DB3F3F /* AutoInitCyclical1.m */,
+				B833262B218B9ECA00DB3F3F /* AutoInitCyclical2.h */,
+				B833262E218B9ECA00DB3F3F /* AutoInitCyclical2.m */,
+				B833261D218B9EC600DB3F3F /* AutoInitCyclical3.h */,
+				B8332621218B9EC700DB3F3F /* AutoInitCyclical3.m */,
+				B8332622218B9EC800DB3F3F /* AutoInitDependency1.h */,
+				B8332624218B9EC900DB3F3F /* AutoInitDependency1.m */,
+				B8332628218B9ECA00DB3F3F /* AutoInitDependency2.h */,
+				B8332629218B9ECA00DB3F3F /* AutoInitDependency2.m */,
+				B8332638218B9ECB00DB3F3F /* AutoInitDependency3.h */,
+				B8332634218B9ECB00DB3F3F /* AutoInitDependency3.m */,
+				B8332631218B9ECB00DB3F3F /* AutoInitMultipleDependency.h */,
+				B833262F218B9ECB00DB3F3F /* AutoInitMultipleDependency.m */,
+				B833262A218B9ECA00DB3F3F /* AutoInitNoDestructor.h */,
+				B833261F218B9EC700DB3F3F /* AutoInitNoDestructor.m */,
+				B8332637218B9ECB00DB3F3F /* AutoInitSimple.h */,
+				B8332623218B9EC800DB3F3F /* AutoInitSimple.m */,
+				B833262C218B9ECA00DB3F3F /* AutoInitSwiftDependency.h */,
+				B8332632218B9ECB00DB3F3F /* AutoInitSwiftDependency.m */,
+				B8332626218B9ECA00DB3F3F /* caboAutoInitTests.m */,
+				B8332627218B9ECA00DB3F3F /* caboAutoInitTests.swift */,
+				B833262D218B9ECA00DB3F3F /* SwiftAutoInitDependency1.swift */,
+				B8332635218B9ECB00DB3F3F /* SwiftAutoInitDependency2.swift */,
+				B833261C218B9EC500DB3F3F /* SwiftAutoInitDependency3.swift */,
+				B8332620218B9EC700DB3F3F /* SwiftAutoInitMultipleDependency.swift */,
+				B8332633218B9ECB00DB3F3F /* SwiftAutoInitObjCDependency.swift */,
+				B8332630218B9ECB00DB3F3F /* SwiftAutoInitSimple.swift */,
+				B8332612218B9DD100DB3F3F /* autoinit_ExampleTests.swift */,
+				B8332614218B9DD100DB3F3F /* Info.plist */,
+				B833261B218B9EC500DB3F3F /* autoinit_ExampleTests-Bridging-Header.h */,
+			);
+			path = autoinit_ExampleTests;
+			sourceTree = "<group>";
+		};
 		EB3036CDB488B8A9461B336D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F6CA2EE9643A316EEAFD4754 /* Pods-autoinit_Tests.debug.xcconfig */,
-				45BCA029BE4E5FD6CBD2E81E /* Pods-autoinit_Tests.release.xcconfig */,
+				B3C7CD66A37DB318ADA21A94 /* Pods-autoinit_Example.debug.xcconfig */,
+				34E7D7CEA80055CB37ABDBB2 /* Pods-autoinit_Example.release.xcconfig */,
+				F1C3D904509B067B617FBE01 /* Pods-autoinit_ExampleTests.debug.xcconfig */,
+				DC421ED31B97AEA0829A511B /* Pods-autoinit_ExampleTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -174,24 +225,43 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACE41AFB9204008FA782 /* autoinit_Tests */ = {
+		B83325FA218B9DCF00DB3F3F /* autoinit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "autoinit_Tests" */;
+			buildConfigurationList = B8332615218B9DD100DB3F3F /* Build configuration list for PBXNativeTarget "autoinit_Example" */;
 			buildPhases = (
-				8722C9E41ED6A9C4B4F0A115 /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-				F6C0A5A353F269A902C8B2D6 /* [CP] Embed Pods Frameworks */,
-				5A2714493D80146C6A56A057 /* [CP] Copy Pods Resources */,
+				85AB8C92A2A5BEAB61E6D532 /* [CP] Check Pods Manifest.lock */,
+				B83325F7218B9DCF00DB3F3F /* Sources */,
+				B83325F8218B9DCF00DB3F3F /* Frameworks */,
+				B83325F9218B9DCF00DB3F3F /* Resources */,
+				9FA3EB8E049619341E0DFF97 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = autoinit_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* autoinit_Tests.xctest */;
+			name = autoinit_Example;
+			productName = autoinit_Example;
+			productReference = B83325FB218B9DCF00DB3F3F /* autoinit_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B833260D218B9DD100DB3F3F /* autoinit_ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8332618218B9DD100DB3F3F /* Build configuration list for PBXNativeTarget "autoinit_ExampleTests" */;
+			buildPhases = (
+				A258E33156D657E813FCD085 /* [CP] Check Pods Manifest.lock */,
+				B833260A218B9DD100DB3F3F /* Sources */,
+				B833260B218B9DD100DB3F3F /* Frameworks */,
+				B833260C218B9DD100DB3F3F /* Resources */,
+				05873929F4382020D307505F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8332610218B9DD100DB3F3F /* PBXTargetDependency */,
+			);
+			name = autoinit_ExampleTests;
+			productName = autoinit_ExampleTests;
+			productReference = B833260E218B9DD100DB3F3F /* autoinit_ExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -200,14 +270,21 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0900;
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0920;
-						TestTargetID = 607FACCF1AFB9204008FA782;
+					B83325FA218B9DCF00DB3F3F = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = XE63Z2QPWQ;
+						ProvisioningStyle = Automatic;
+					};
+					B833260D218B9DD100DB3F3F = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = XE63Z2QPWQ;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B83325FA218B9DCF00DB3F3F;
 					};
 				};
 			};
@@ -224,13 +301,24 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACE41AFB9204008FA782 /* autoinit_Tests */,
+				B83325FA218B9DCF00DB3F3F /* autoinit_Example */,
+				B833260D218B9DD100DB3F3F /* autoinit_ExampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		607FACE31AFB9204008FA782 /* Resources */ = {
+		B83325F9218B9DCF00DB3F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8332608218B9DD100DB3F3F /* LaunchScreen.storyboard in Resources */,
+				B8332605218B9DD100DB3F3F /* Assets.xcassets in Resources */,
+				B8332603218B9DCF00DB3F3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B833260C218B9DD100DB3F3F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -240,88 +328,162 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5A2714493D80146C6A56A057 /* [CP] Copy Pods Resources */ = {
+		05873929F4382020D307505F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-autoinit_ExampleTests/Pods-autoinit_ExampleTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DBC/DBC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DBC.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-autoinit_Tests/Pods-autoinit_Tests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-autoinit_ExampleTests/Pods-autoinit_ExampleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8722C9E41ED6A9C4B4F0A115 /* [CP] Check Pods Manifest.lock */ = {
+		85AB8C92A2A5BEAB61E6D532 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-autoinit_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-autoinit_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F6C0A5A353F269A902C8B2D6 /* [CP] Embed Pods Frameworks */ = {
+		9FA3EB8E049619341E0DFF97 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-autoinit_Tests/Pods-autoinit_Tests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-autoinit_Example/Pods-autoinit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DBC/DBC.framework",
 				"${BUILT_PRODUCTS_DIR}/autoinit/autoinit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DBC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/autoinit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-autoinit_Tests/Pods-autoinit_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-autoinit_Example/Pods-autoinit_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A258E33156D657E813FCD085 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-autoinit_ExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		607FACE11AFB9204008FA782 /* Sources */ = {
+		B83325F7218B9DCF00DB3F3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8CC1DA91EEB37CA006DE9B4 /* AutoInitSimple.m in Sources */,
-				B8CC1DB11EEB37CA006DE9B4 /* SwiftAutoInitObjCDependency.swift in Sources */,
-				B8CC1DA81EEB37CA006DE9B4 /* AutoInitNoDestructor.m in Sources */,
-				B8CC1DAA1EEB37CA006DE9B4 /* AutoInitSwiftDependency.m in Sources */,
-				B8CC1DAB1EEB37CA006DE9B4 /* caboAutoInitTests.m in Sources */,
-				B8CC1DB01EEB37CA006DE9B4 /* SwiftAutoInitMultipleDependency.swift in Sources */,
-				B8CC1DAE1EEB37CA006DE9B4 /* SwiftAutoInitDependency2.swift in Sources */,
-				B8CC1DAF1EEB37CA006DE9B4 /* SwiftAutoInitDependency3.swift in Sources */,
-				B8CC1DA51EEB37CA006DE9B4 /* AutoInitDependency2.m in Sources */,
-				B8CC1DA21EEB37CA006DE9B4 /* AutoInitCyclical2.m in Sources */,
-				B8CC1DA61EEB37CA006DE9B4 /* AutoInitDependency3.m in Sources */,
-				B8CC1DA11EEB37CA006DE9B4 /* AutoInitCyclical1.m in Sources */,
-				B8CC1DA31EEB37CA006DE9B4 /* AutoInitCyclical3.m in Sources */,
-				B8CC1DA41EEB37CA006DE9B4 /* AutoInitDependency1.m in Sources */,
-				B8CC1DB21EEB37CA006DE9B4 /* SwiftAutoInitSimple.swift in Sources */,
-				B8CC1DAD1EEB37CA006DE9B4 /* SwiftAutoInitDependency1.swift in Sources */,
-				B8CC1DA71EEB37CA006DE9B4 /* AutoInitMultipleDependency.m in Sources */,
-				B8CC1DAC1EEB37CA006DE9B4 /* caboAutoInitTests.swift in Sources */,
+				B8332600218B9DCF00DB3F3F /* ViewController.swift in Sources */,
+				B83325FE218B9DCF00DB3F3F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B833260A218B9DD100DB3F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8332644218B9ECB00DB3F3F /* AutoInitCyclical2.m in Sources */,
+				B8332642218B9ECB00DB3F3F /* AutoInitDependency2.m in Sources */,
+				B833263F218B9ECB00DB3F3F /* AutoInitCyclical1.m in Sources */,
+				B8332649218B9ECB00DB3F3F /* AutoInitDependency3.m in Sources */,
+				B833263E218B9ECB00DB3F3F /* AutoInitDependency1.m in Sources */,
+				B833263A218B9ECB00DB3F3F /* AutoInitNoDestructor.m in Sources */,
+				B833263B218B9ECB00DB3F3F /* SwiftAutoInitMultipleDependency.swift in Sources */,
+				B833264A218B9ECB00DB3F3F /* SwiftAutoInitDependency2.swift in Sources */,
+				B833263D218B9ECB00DB3F3F /* AutoInitSimple.m in Sources */,
+				B8332613218B9DD100DB3F3F /* autoinit_ExampleTests.swift in Sources */,
+				B8332646218B9ECB00DB3F3F /* SwiftAutoInitSimple.swift in Sources */,
+				B8332640218B9ECB00DB3F3F /* caboAutoInitTests.m in Sources */,
+				B8332645218B9ECB00DB3F3F /* AutoInitMultipleDependency.m in Sources */,
+				B833263C218B9ECB00DB3F3F /* AutoInitCyclical3.m in Sources */,
+				B8332639218B9ECB00DB3F3F /* SwiftAutoInitDependency3.swift in Sources */,
+				B8332648218B9ECB00DB3F3F /* SwiftAutoInitObjCDependency.swift in Sources */,
+				B8332647218B9ECB00DB3F3F /* AutoInitSwiftDependency.m in Sources */,
+				B8332641218B9ECB00DB3F3F /* caboAutoInitTests.swift in Sources */,
+				B8332643218B9ECB00DB3F3F /* SwiftAutoInitDependency1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8332610218B9DD100DB3F3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B83325FA218B9DCF00DB3F3F /* autoinit_Example */;
+			targetProxy = B833260F218B9DD100DB3F3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8332601218B9DCF00DB3F3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8332602218B9DCF00DB3F3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8332606218B9DD100DB3F3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8332607218B9DD100DB3F3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		607FACED1AFB9204008FA782 /* Debug */ = {
@@ -336,12 +498,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -390,12 +554,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -425,44 +591,120 @@
 			};
 			name = Release;
 		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
+		B8332616218B9DD100DB3F3F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6CA2EE9643A316EEAFD4754 /* Pods-autoinit_Tests.debug.xcconfig */;
+			baseConfigurationReference = B3C7CD66A37DB318ADA21A94 /* Pods-autoinit_Example.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = XE63Z2QPWQ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = autoinit_Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cobosft.autoinit-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Tests/autoinit_Tests-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		607FACF41AFB9204008FA782 /* Release */ = {
+		B8332617218B9DD100DB3F3F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45BCA029BE4E5FD6CBD2E81E /* Pods-autoinit_Tests.release.xcconfig */;
+			baseConfigurationReference = 34E7D7CEA80055CB37ABDBB2 /* Pods-autoinit_Example.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XE63Z2QPWQ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = autoinit_Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cobosft.autoinit-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Tests/autoinit_Tests-Bridging-Header.h";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B8332619218B9DD100DB3F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1C3D904509B067B617FBE01 /* Pods-autoinit_ExampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = XE63Z2QPWQ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = autoinit_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cobosft.autoinit-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "autoinit_ExampleTests/autoinit_ExampleTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autoinit_Example.app/autoinit_Example";
+			};
+			name = Debug;
+		};
+		B833261A218B9DD100DB3F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC421ED31B97AEA0829A511B /* Pods-autoinit_ExampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XE63Z2QPWQ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = autoinit_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cobosft.autoinit-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "autoinit_ExampleTests/autoinit_ExampleTests-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autoinit_Example.app/autoinit_Example";
 			};
 			name = Release;
 		};
@@ -478,11 +720,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "autoinit_Tests" */ = {
+		B8332615218B9DD100DB3F3F /* Build configuration list for PBXNativeTarget "autoinit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
+				B8332616218B9DD100DB3F3F /* Debug */,
+				B8332617218B9DD100DB3F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8332618218B9DD100DB3F3F /* Build configuration list for PBXNativeTarget "autoinit_ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8332619218B9DD100DB3F3F /* Debug */,
+				B833261A218B9DD100DB3F3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

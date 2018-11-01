@@ -3,9 +3,13 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 use_frameworks!
 
-target 'autoinit_Tests' do
-  platform :ios, '9.0'
-  pod 'autoinit', :path => '../'
-  
-  
+target 'autoinit_Example' do
+	platform :ios, '9.0'
+	pod 'autoinit', :path => '../'
+	pod 'DBC'
+
+	target 'autoinit_ExampleTests' do
+		inherit! :search_paths
+		pod 'DBC'
+	end
 end

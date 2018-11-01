@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0900"
+   LastUpgradeVersion = "1010"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACCF1AFB9204008FA782"
+               BlueprintIdentifier = "B83325FA218B9DCF00DB3F3F"
                BuildableName = "autoinit_Example.app"
                BlueprintName = "autoinit_Example"
                ReferencedContainer = "container:autoinit.xcodeproj">
@@ -52,11 +52,21 @@
                ReferencedContainer = "container:autoinit.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B833260D218B9DD100DB3F3F"
+               BuildableName = "autoinit_ExampleTests.xctest"
+               BlueprintName = "autoinit_ExampleTests"
+               ReferencedContainer = "container:autoinit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
+            BlueprintIdentifier = "B83325FA218B9DCF00DB3F3F"
             BuildableName = "autoinit_Example.app"
             BlueprintName = "autoinit_Example"
             ReferencedContainer = "container:autoinit.xcodeproj">
@@ -79,7 +89,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
+            BlueprintIdentifier = "B83325FA218B9DCF00DB3F3F"
             BuildableName = "autoinit_Example.app"
             BlueprintName = "autoinit_Example"
             ReferencedContainer = "container:autoinit.xcodeproj">
@@ -98,7 +108,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
+            BlueprintIdentifier = "B83325FA218B9DCF00DB3F3F"
             BuildableName = "autoinit_Example.app"
             BlueprintName = "autoinit_Example"
             ReferencedContainer = "container:autoinit.xcodeproj">

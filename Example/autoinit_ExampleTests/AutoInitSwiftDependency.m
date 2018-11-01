@@ -7,7 +7,7 @@
 //
 
 #import "AutoInitSwiftDependency.h"
-#import "autoInit_Tests-Swift.h"
+#import "autoinit_ExampleTests-Swift.h"
 
 @import DBC;
 @import autoinit;

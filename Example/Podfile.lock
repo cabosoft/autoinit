@@ -1,27 +1,32 @@
 PODS:
   - autoinit (0.1.0):
     - DBC
-  - DBC (1.1.0):
-    - DBC/Bridged (= 1.1.0)
-    - DBC/Objc (= 1.1.0)
-    - DBC/Swift (= 1.1.0)
-  - DBC/Bridged (1.1.0):
+  - DBC (1.2.0):
+    - DBC/Bridged (= 1.2.0)
+    - DBC/Objc (= 1.2.0)
+    - DBC/Swift (= 1.2.0)
+  - DBC/Bridged (1.2.0):
     - DBC/Objc
     - DBC/Swift
-  - DBC/Objc (1.1.0)
-  - DBC/Swift (1.1.0)
+  - DBC/Objc (1.2.0)
+  - DBC/Swift (1.2.0)
 
 DEPENDENCIES:
   - autoinit (from `../`)
+  - DBC
+
+SPEC REPOS:
+  "git@bitbucket.org:cabosoft-mobile/cabopods-ios.git":
+    - DBC
 
 EXTERNAL SOURCES:
   autoinit:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  autoinit: d212c7d22722a3983a48586536ad4936f03af6d5
-  DBC: fb4eeedd9b9436b7afba706d897399a033dd4a7d
+  autoinit: 9602df4a196dc632ae807bd03872749c3e5b7071
+  DBC: 7ee77ff6dd123d809d6f273631329aa76eaabe8d
 
-PODFILE CHECKSUM: 2236e322f6cc7b6c7e2b4493e15dbb1c3843e770
+PODFILE CHECKSUM: 3e51487caded3cfb1380403bf9e38c130c137835
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.6.0.beta.1

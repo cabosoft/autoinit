@@ -1,0 +1,27 @@
+PODS:
+  - autoinit (0.1.0):
+    - DBC
+  - DBC (1.1.0):
+    - DBC/Bridged (= 1.1.0)
+    - DBC/Objc (= 1.1.0)
+    - DBC/Swift (= 1.1.0)
+  - DBC/Bridged (1.1.0):
+    - DBC/Objc
+    - DBC/Swift
+  - DBC/Objc (1.1.0)
+  - DBC/Swift (1.1.0)
+
+DEPENDENCIES:
+  - autoinit (from `../`)
+
+EXTERNAL SOURCES:
+  autoinit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  autoinit: d212c7d22722a3983a48586536ad4936f03af6d5
+  DBC: fb4eeedd9b9436b7afba706d897399a033dd4a7d
+
+PODFILE CHECKSUM: 2236e322f6cc7b6c7e2b4493e15dbb1c3843e770
+
+COCOAPODS: 1.3.1
